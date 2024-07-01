@@ -9,7 +9,7 @@ patches:
 - patch: |-
     - op: replace
       path: /spec/ports/0/nodePort
-      value: 30083
+      value: 30093
   target:
     kind: Service
     name: kargo-demo
